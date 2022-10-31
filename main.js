@@ -45,5 +45,7 @@ app.onclick = function() {
         spanElement[0].innerHTML = 0;
         spanElement[1].innerHTML = 5;
     }
+	spanElement[3].innerHTML = 0
+	spanElement[4].innerHTML = 0
 }
 
