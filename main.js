@@ -21,7 +21,7 @@ function timeDown() {
 					spanElement[1].innerHTML = 0;
 					spanElement[3].innerHTML = 0;
 					spanElement[4].innerHTML = 0;
-					var audio1 = new Audio("https://github.com/likay102/pomodoro-demo/blob/99e6a89f972b2dd6e6338593f9f71e165afe5d9c/sounds/sound-clock.mp3");
+					var audio1 = new Audio("./sounds/sound-clock.mp3");
 					audio1.play();
 				}
 			}
@@ -31,7 +31,7 @@ function timeDown() {
 
 const app = document.querySelector(".app");
 let interval;
-let audio2 = new Audio("https://github.com/likay102/pomodoro-demo/blob/99e6a89f972b2dd6e6338593f9f71e165afe5d9c/sounds/piano.mp3");
+let audio2 = new Audio("./sounds/piano.mp3");
 app.onclick = function () {
 	audio2.currentTime = 0
 	audio2.play();
