@@ -32,6 +32,7 @@ function timeDown() {
 const app = document.querySelector(".app");
 let interval;
 let audio2 = new Audio("./sounds/piano.mp3");
+audio2.volume = 0.2;
 app.onclick = function () {
 	audio2.currentTime = 0
 	audio2.play();
