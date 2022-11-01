@@ -21,7 +21,7 @@ function timeDown() {
 					spanElement[1].innerHTML = 0;
 					spanElement[3].innerHTML = 0;
 					spanElement[4].innerHTML = 0;
-					var audio1 = new Audio("./sounds/sound-clock.mp3");
+					var audio1 = new Audio("./assets/sounds/sound-clock.mp3");
 					audio1.play();
 				}
 			}
@@ -31,7 +31,7 @@ function timeDown() {
 
 const app = document.querySelector(".app");
 let interval;
-let audio2 = new Audio("./sounds/piano.mp3");
+let audio2 = new Audio("./assets/sounds/piano.mp3");
 audio2.volume = 0.2;
 app.onclick = function () {
 	audio2.currentTime = 0
